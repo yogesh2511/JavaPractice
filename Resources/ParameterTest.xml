@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Paratmeter_Suite" parallel="methods" thread-count="4">
+	<listeners>
+		<listener class-name="Listener.RetryListener" />
+	</listeners>
+	<test name="Paratmeter_Test">
+		<classes>
+			<class name="TestNgExample.ParatmeterExampleTest"></class>
+		</classes>
+	</test>
+</suite>
